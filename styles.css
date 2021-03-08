@@ -1,1 +1,49 @@
 /* CSS Doc for project */
+.main{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    color: rgb(84, 197, 99);
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid rgb(206, 214, 90);
+    width: 650px;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: rgb(216, 188, 61);
+  }
+  
+  td {
+    border-top: 1px solid rgb(24, 23, 39);
+  }
+  
+  .code {
+    font-family: monospace;
+    background-color: rgb(255, 255, 251);
+  }
